@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+ <listeners>
+	 <listener class-name="org.peoplestrong.altworklife.core.ReportingListener"></listener>
+ </listeners>
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="org.peoplestrong.test.hris.VerifyBasicInfoAndEmployeeInitiate"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+ <listeners>
+	 <listener class-name="org.peoplestrong.altworklife.core.ReportingListener"></listener>
+ </listeners>
+  <test thread-count="5" name="RosterSuite">
+    <classes>
+      <class name="org.peoplestrong.test.wfm.TestConfigRoster"/> 
+      <class name="org.peoplestrong.test.wfm.MonthlyRoster_1_3_5_WeekoffTest"/>
+      <class name="org.peoplestrong.test.wfm.MonthlyRoster_2_4_WeekoffTest"/>
+      <class name="org.peoplestrong.test.wfm.MonthlyRoster_Fri_Sat_Off"/>
+    </classes>
+
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
